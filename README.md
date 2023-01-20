@@ -7,32 +7,23 @@
 ## Project Structure
 ```
 .
+├── README.md
 ├── pom.xml
 └── src
-    ├── main
-    │   ├── java
-    │   │   └── org
-    │   │       └── demo
-    │   │           └── hibernate
-    │   │               ├── App.java
-    │   │               ├── controller
-    │   │               │   ├── CreateUser.java
-    │   │               │   ├── CreateUserTable.java
-    │   │               │   ├── DeletingUser.java
-    │   │               │   ├── FindUserBy.java
-    │   │               │   ├── FindingUser.java
-    │   │               │   └── UpdatingUser.java
-    │   │               ├── model
-    │   │               │   └── User.java
-    │   │               └── service
-    │   └── resources
-    │       └── hibernate.cfg.xml
-    └── test
-        └── java
-            └── org
-                └── demo
-                    └── hibernate
-                        └── AppTest.java
+    └── main
+        ├── java
+        │   └── org
+        │       └── demo
+        │           └── hibernate
+        │               ├── App.java
+        │               ├── model
+        │               │   ├── Book.java
+        │               │   └── User.java
+        │               └── service
+        │                   ├── UserService.java
+        │                   └── UserServiceImpl.java
+        └── resources
+            └── hibernate.cfg.xml
 
 
 
